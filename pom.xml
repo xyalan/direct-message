@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>direct-message</name>
-	<description>Project for direct massge</description>
+	<description>Project for direct message</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -40,6 +40,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
